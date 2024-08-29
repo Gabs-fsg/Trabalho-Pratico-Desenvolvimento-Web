@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<HTML lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <style>
+        h1 {
+         color:blue;
+         font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Pedido </h1>
+    <form method="get" action="teste.jsp">
+        Nome: <input type="text" name="Nome"> <br>
+        Email: <input type="email" name="Email"> <br> 
+        Tamanho: 
+        <input type="radio" name="Tamanho" value="g"> Grande
+        <input type="radio" name="Tamanho" value="m"> Médio
+        <input type="radio" name="Tamanho" value="p"> Pequeno
+        <br>
+        Sabor: <select name="Sabor">
+            <option> Calabresa </option>
+            <option> Napolitana </option>
+            <option> Marguerita </option>
+
+        </select>
+        <br>
+        Adicionais: 
+        <input type="checkbox" name="Borda" value="sim"> Borda
+        <input type="checkbox" name="Queijo" value="sim"> Queijo Extra
+        <br>
+        Data Entrega: <input type="date" name="dataEntrega">
+        <br>
+        Comentário: <br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+
+    
+</body>
+</HTML>

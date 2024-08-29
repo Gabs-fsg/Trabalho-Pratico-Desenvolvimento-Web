@@ -1,0 +1,36 @@
+.menu li {
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 10px; /* Adiciona um espaço entre os itens */
+    text-align: center; /* Alinha os itens do menu ao centro */
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif; /* Adiciona uma fonte padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+main {
+    max-width: 800px; /* Define a largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    padding: 20px; /* Adiciona um espaçamento ao redor do conteúdo */
+}
+
+/* Estilos da Imagem de Perfil */
+.perfil {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: 500px; /* Define o tamanho da imagem */
+    display: block; /* Faz a imagem ser exibida como bloco para centralização */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona espaço em cima e embaixo */
+    border: 1px solid black;
+}
+
+#mensagem {
+    width: 100%; /* Define a largura do textarea como 100% do seu container */
+    max-width: 500px; /* Define uma largura máxima para o textarea */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Define uma borda simples */
+    border-radius: 4px; /* Adiciona cantos arredondados */
+}

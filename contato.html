@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+<main>
+    <h1>Fale comigo</h1>
+    <form action="mailto:gabinandagarcia@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" size="50" maxlength="50" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" size="50" maxlength="50" required>
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="10" required></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        </fieldset>       
+    </form>   
+</main>
+</body>
+</html>
